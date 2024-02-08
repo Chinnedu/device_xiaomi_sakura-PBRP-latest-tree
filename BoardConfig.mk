@@ -107,4 +107,7 @@ TW_INCLUDE_NTFS_3G := true
 TW_EXCLUDE_SUPERSU := true
 
 #PBRP Flags
+PB_GO := TRUE
+PB_FORCE_DD_FLASH := TRUE
 PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_TORCH_PATH := /sys/class/leds/flashlight
